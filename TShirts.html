@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+	<title>Online Printed T-Shirts</title>
+
+	</style>
+	
+</head>
+<body>
+	<nav class="w3-bar w3-black">
+	  <a href="#home" class="w3-button w3-bar-item">Home</a>
+
+	  <a href="about.html" class="w3-button w3-bar-item" target = "_blank">about</a>
+	  <a href="contact .html" class="w3-button w3-bar-item" target="_blank">Contact</a>
+	</nav>
+
+	<section>
+	  <img class="mySlides" src="t1.jpg" style="width:100%">
+	  <img class="mySlides" src="t2.jpg" style="width:100%">
+	  <img class="mySlides" src="t3.jpg" style="width:100%">
+	</section>
+	<script>
+		// Automatic Slideshow - change image every 3 seconds
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}
+		 	 x[myIndex-1].style.display = "block";
+		  setTimeout(carousel, 3000);
+		}
+	</script>
+
+	<section class="w3-container w3-center" style="max-width:600px">
+	  <h2 class="w3-wide">Polo Printed T-Shirts</h2>
+	  <p class="w3-opacity"><i>We printing your style </i></p>
+	</section>
+
+	<section class="w3-container w3-content w3-center" style="max-width:600px">
+		<p class="w3-justify">
+			We have created a oline printed t-shitrs website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		</p>
+	</section>
+
+	<section class="w3-row-padding w3-center w3-light-grey">
+	  <article class="w3-third">
+	 
+	    <div class="coupon">
+		  <div class="container">
+		    <h3>Our Designs</h3>
+		  </div>
+		  <img src="t1.jpg" alt="Avatar" style="width:100%;">
+		  <div class="container" style="background-color:white">
+		    <h2><b>CHOOSE FROM DESIGNS</b></h2> 
+		     <input type="submit" value="see designs">
+		  </div>
+		  <div class="container">
+		    <p>Use Promo Code: <span class="promo">BOH232</span></p>
+		    <p class="expire">Expires: Jan 03, 2020</p>
+		  </div>
+		</div>
+	  </article>
+	  <article class="w3-third">
+	  
+	   <div class="coupon">
+		  <div class="container">
+		    <h3>Sale</h3>
+		  </div>
+		  <img src="t5.jpg" alt="Avatar" style="width:100%;">
+		  <div class="container" style="background-color:white">
+		    <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+		   <input type="submit" value=" See sale">
+		  
+		  </div>
+		  <div class="container">
+		    <p>Use Promo Code: <span class="promo">BOH232</span></p>
+		    <p class="expire">Expires: Jan 03, 2020</p>
+		  </div>
+		</div>
+	  </article>
+	  <article class="w3-third">
+	   
+	   <div class="coupon">
+		  <div class="container">
+		    <h3>blank t-shirts</h3>
+		  </div>
+		  <img src="t4.jpg" alt="Avatar" style="width:100%;">
+		  <div class="container" style="background-color:white">
+		       <h2><b>DESIGN YOUR STYLE</b></h2> 
+		     <input type="submit" value="Create Design">
+		  </div>
+		  <div class="container">
+		    <p>Use Promo Code: <span class="promo">BOH232</span></p>
+		    <p class="expire">Expires: Jan 03, 2020</p>
+		  </div>
+		</div>
+	  </article>
+	</section>
+
+	<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+	  <a href="#"><i class="fa fa-facebook-official"></i></a>
+	  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+	  <a href="#"><i class="fa fa-twitter"></i></a>
+	  <a href="#"><i class="fa fa-flickr"></i></a>
+	  <a href="#"><i class="fa fa-linkedin"></i></a>
+	  <p class="w3-medium">
+	    Powered by @ebtesam
+	  </p>
+	</footer>
+
+</body>
+</html>
